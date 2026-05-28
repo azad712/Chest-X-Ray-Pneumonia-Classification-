@@ -1,0 +1,121 @@
+# Dataset - Too large for GitHub
+chest_xray/
+*.jpeg
+*.jpg
+*.png
+*.dcm
+*.dicom
+
+# Model files - Too large for GitHub (use Git LFS or external hosting)
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+saved_model/
+
+# Keep small model metadata files
+!models/*/class_names.json
+!models/*/history.json
+!models/*/training_history.png
+!models/*/evaluation_results/*.png
+!models/*/evaluation_results/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Training outputs (optional - uncomment to exclude)
+# models/*/best_model.h5
+# models/*/final_model.h5
+
+# Test outputs
+test_outputs/
+predictions/
+*.csv
+
+# MacOS
+__MACOSX/
+
+# Made with Bob
