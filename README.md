@@ -131,9 +131,7 @@ python train_pneumonia_classifier.py
 #### Option 2: Download Pre-trained Model
 If you want to use the pre-trained model without training:
 
-1. **Google Drive**: [Download Link] (Add your link here)
-2. **Hugging Face**: [Download Link] (Add your link here)
-3. **Dropbox**: [Download Link] (Add your link here)
+1. **Kaggle**: [https://www.kaggle.com/models/google/mobilenet-v2] 
 
 After downloading, place the model files in:
 ```
